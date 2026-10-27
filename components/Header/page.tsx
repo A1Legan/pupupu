@@ -2,11 +2,11 @@ import Link from "next/link";
 
 export default function Header() {
     return (
-        <header className="flex flex-row justify-between items-center py-5">
+        <div className=" bg-white flex flex-row w-full px-20 items-center justify-center gap-120 py-5">
             <p className="text-[#1A2A52] font-bold text-2xl">
                 BOXPACK
             </p>
-            <nav className="flex flex-row gap-6 text-sm font-medium">
+            <nav className="flex flex-row gap-6 text-sm font-medium text-[#1F2121]">
                 <Link href="">
                     Услуги
                 </Link>
@@ -26,6 +26,6 @@ export default function Header() {
                     Контакты
                 </Link>
             </nav>
-        </header>
+        </div>
     );
 }
